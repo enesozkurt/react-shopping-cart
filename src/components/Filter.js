@@ -9,7 +9,7 @@ class Filter extends Component {
                 </div>
                 <div className="filter-sort">
                     Order{" "}
-                    <select name="" id="" value={this.props.size} onChange={this.props.sortProducts}>
+                    <select name="" id="" value={this.props.sort} onChange={this.props.sortProducts}>
                         <option value="">Latest</option>
                         <option value="lowest">Lowest</option>
                         <option value="highest">Highest</option>
